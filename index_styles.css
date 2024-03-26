@@ -1,28 +1,54 @@
-* {
+/* * {
     outline: 2px solid red;
-}
+} */
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    height: 100%;
+    margin: 0;
 }
+
 
 /* Modify Title */
 
 h1 {
-}
-
-
-/* Modify Recipe Image Size */
-
-img {
-    height: 200px;
-    width: auto;
-    display: block;
-}
+    font-size: 50px;
+    margin: 0;
+    background-color: aqua;
+    border-bottom: 5px solid black}
 
 /* Modify Recipe Containers */
 
 div {
     display: inline-block;
+    margin: 40px;
 }
+
+/* Modify Recipe Image Size */
+
+img {
+    height: 400px;
+    width: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.6s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
