@@ -1,0 +1,28 @@
+* {
+    outline: 2px solid red;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Modify Title */
+
+h1 {
+}
+
+
+/* Modify Recipe Image Size */
+
+img {
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+/* Modify Recipe Containers */
+
+div {
+    display: inline-block;
+}
